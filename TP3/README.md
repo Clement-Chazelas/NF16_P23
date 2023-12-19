@@ -1,12 +1,12 @@
 # ﻿NF16 - TP 3 – Listes chaînées ![](Aspose.Words.dfb0aaf5-e3be-4aa9-a5b1-5b21914b21b4.001.png)
 
-**Introduction** 
+## **Introduction** 
 
 Nous proposons d’écrire un programme permettant la gestion d’un magasin et des rayons qui le constituent : un magasin est une entité contenant plusieurs rayons, et chaque rayon contient plusieurs produits. 
 
 L'ensemble des données et des liens entre ces données seront représentées sous forme de listes simplement chaînées. 
 
-1. **Structures** 
+### 1. **Structures** 
 1. Créer une structure **Produit** (et le type correspondant **T\_Produit**) ayant les champs suivants : 
 - **designation** *de type chaine de caractères* 
 - **prix** *de type nombre réel* 
@@ -19,7 +19,8 @@ L'ensemble des données et des liens entre ces données seront représentées so
 3. Créer une structure **Magasin** (et le type correspondant **T\_Magasin**) ayant les champs suivants : 
 - **nom** *de type chaine de caractères* 
 - **liste\_rayons** *de type pointeur vers une structure Rayon* 
-2. **Fonctions requises** 
+
+### 2. **Fonctions requises** 
 1. Création et initialisation des structures : 
 
 **T\_Produit \*creerProduit(char \*designation, float prix, int quantite) T\_Rayon \*creerRayon(char \*nom)** 
@@ -94,15 +95,13 @@ L'ensemble des données et des liens entre ces données seront représentées so
 
 *Vous expliquerez dans votre rapport votre choix de créer des structures spécifiques ou d'utiliser les structures déjà définies pour cette fonction. **Vous veillerez à optimiser cette fonction de manière à effectuer le minimum d'opérations possible.*** 
 
-P23 – NF16 – TP 2 Listes Chainées   2 ![ref1]
-
 9. Fusionner deux rayons 
 
 **void fusionnerRayons(T\_Magasin \*magasin)** 
 
 *L'utilisateur choisit deux rayons parmi ceux du magasin. On fusionne alors ces deux rayons en un seul dont le nom sera au choix de l'utilisateur et qui contiendra les produits des deux rayons fusionnés triés par ordre croissant de prix. **Vous veillerez à optimiser cette fonction de manière à effectuer le minimum d'opérations possible.*** 
 
-3. **Programme Principal :** 
+### 3. **Programme Principal :** 
 
 Programmer un menu contenant les options suivantes : 
 
@@ -116,7 +115,7 @@ Programmer un menu contenant les options suivantes :
 1. Rechercher un produit par prix 
 1. Quitter 
 
-**Consignes générales :** 
+## **Consignes générales :** 
 
 - Sources 
 
@@ -133,6 +132,5 @@ Votre rapport de quatre pages maximum contiendra :
 - Un exposé succinct de la complexité de chacune des fonctions implémentées 
 
 **Votre rapport** et **vos trois fichiers** feront l'objet d'une remise de devoir sur **Moodle** dans l'espace qui sera ouvert à cet effet pendant une semaine suivant votre démonstration au chargé de TP (un seul rendu de devoir par binôme). 
-P23 – NF16 – TP 3 Listes Chainées   3 ![ref1]
 
 [ref1]: Aspose.Words.dfb0aaf5-e3be-4aa9-a5b1-5b21914b21b4.002.png
